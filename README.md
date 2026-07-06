@@ -62,7 +62,7 @@ Weather-App
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Weather-App.git
+git clone https://github.com/Nikhil23108/Weather-App.git
 ```
 
 ### 2️⃣ Navigate to the Project Directory
@@ -105,6 +105,9 @@ http://localhost:5173
 
 ## 📷 Screenshot
 <img width="1365" height="674" alt="image" src="https://github.com/user-attachments/assets/3be58cb7-9505-4f29-990d-17a4cd53b63b" />
+
+For Invalid City Name -
+<img width="1314" height="669" alt="image" src="https://github.com/user-attachments/assets/9f01d467-363e-45d1-b070-f87b07df5911" />
 
 Example:
 
@@ -173,12 +176,6 @@ npm run lint
 - 🌡️ Celsius/Fahrenheit Toggle
 - 🕒 Search History
 - 🌎 Recent Cities Suggestions
-
----
-
-## 📸 Preview
-
-<img width="1365" height="674" alt="image" src="https://github.com/user-attachments/assets/4f4d8173-6fdc-45aa-8697-00dc03f448c2" />
 
 ---
 
