@@ -1,16 +1,196 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive weather application built with **React** and **Vite** that provides real-time weather information for any city using the **OpenWeatherMap API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 https://weather-app-iota-drab-52.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Search weather by city name
+- 🌡️ Display current temperature
+- 💧 Show humidity percentage
+- 🌬️ Display wind speed
+- ☀️ Dynamic weather icons based on weather conditions
+- 📱 Responsive and user-friendly interface
+- ⚡ Fast performance powered by Vite
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- JavaScript
+- CSS3
+- OpenWeatherMap API
+- React Icons
+- Vercel (Deployment)
+
+---
+
+## 📂 Project Structure
+
+```text
+Weather-App
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── .gitignore
+└── README.md
+```
+
+---
+
+## ⚙️ Installation and Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Weather-App.git
+```
+
+### 2️⃣ Navigate to the Project Directory
+
+```bash
+cd Weather-App
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Create Environment Variables
+
+Create a `.env` file in the project root and add:
+
+```env
+VITE_APP_ID=YOUR_OPENWEATHERMAP_API_KEY
+```
+
+Get your API key from:
+
+https://openweathermap.org/api
+
+### 5️⃣ Start the Development Server
+
+```bash
+npm run dev
+```
+
+The application will run at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📷 Screenshot
+<img width="1365" height="674" alt="image" src="https://github.com/user-attachments/assets/3be58cb7-9505-4f29-990d-17a4cd53b63b" />
+
+Example:
+
+```markdown
+![Weather App](./public/weather-app.png)
+```
+
+or
+
+```markdown
+![Weather App](https://your-image-url.com/weather-app.png)
+```
+
+---
+
+## 🌐 API Used
+
+### OpenWeatherMap API
+
+Provides:
+
+- Current Temperature
+- Humidity
+- Wind Speed
+- Weather Conditions
+
+Documentation:
+
+https://openweathermap.org/current
+
+---
+
+## 📜 Available Scripts
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+### Run ESLint
+
+```bash
+npm run lint
+```
+
+---
+
+## 🎯 Future Enhancements
+
+- 🌍 Auto-detect user location
+- 📅 5-Day Weather Forecast
+- 🌙 Dark/Light Mode
+- 🌡️ Celsius/Fahrenheit Toggle
+- 🕒 Search History
+- 🌎 Recent Cities Suggestions
+
+---
+
+## 📸 Preview
+
+<img width="1365" height="674" alt="image" src="https://github.com/user-attachments/assets/4f4d8173-6fdc-45aa-8697-00dc03f448c2" />
+
+---
+
+## 👨‍💻 Author
+
+**Nikhil**
+
+- GitHub: https://github.com/Nikhil23108
+- LinkedIn: [https://www.linkedin.com/in/your-linkedin-profile/](https://www.linkedin.com/in/nikhil-landge31/)
+
+---
+
+## ⭐ Show Your Support
+
+If you found this project helpful, please consider giving it a **⭐ Star** on GitHub!
